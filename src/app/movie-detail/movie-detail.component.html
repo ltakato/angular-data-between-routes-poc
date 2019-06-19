@@ -1,0 +1,6 @@
+<div>
+  <p *ngIf="movieDetail; else noMovieDetail">{{movieDetail.name}}</p>
+  <ng-template #noMovieDetail>
+    Nenhum filme
+  </ng-template>
+</div>
